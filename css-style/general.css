@@ -29,7 +29,7 @@
  - Tints  = #fdf2e9 #fae5d3
  - Shades  = #cf711f
  - Accents  = 
- - Greys  = #343a40 #888 #555 #333 
+ - Greys  = #343a40 #888 #777 #6f6f6f #555 #333 
 
 
 
@@ -42,6 +42,7 @@
 ----- 06 BORDER_RADIUS ------
 
 default : 8px
+12px
 
 
 ----- 07 WHITE_SPACES ------
