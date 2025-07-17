@@ -409,6 +409,110 @@
 .gallery-img img:hover {
   transform: scale(1.1);
 }
+
 .gallery-img {
   overflow: hidden;
+}
+
+/***********************/
+/**** SECTION Price ****/
+/***********************/
+
+.section-price {
+  padding: 9.6rem 0;
+}
+
+.price-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+  padding: 0 auto 0 auto;
+  margin-bottom: 9.6rem;
+}
+
+.price-box {
+  border: 2px solid #fdf2e9;
+  padding: 4.6rem;
+  border-radius: 12px;
+  width: 75%;
+  position: relative;
+  overflow: hidden;
+}
+
+.price-conten {
+  margin-bottom: 4.8rem;
+}
+
+.price-level {
+  display: block;
+  font-weight: 600;
+  font-size: 2rem;
+  color: #cf711f;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 3.2rem;
+}
+
+.price-dollar {
+  font-size: 3rem;
+  color: #333;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 1.6rem;
+}
+
+.price-price {
+  font-size: 6.2rem;
+  font-weight: 600;
+}
+
+.price-month {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: #6f6f6f;
+  text-align: center;
+}
+.price-list-item {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.price-list-item span {
+  font-size: 1.8rem;
+}
+
+.price-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.price-sign-btn {
+  text-align: center;
+  margin-top: 4.8rem;
+}
+
+.price-impo {
+  background-color: #fdf2e9;
+}
+
+.price-impo::after {
+  content: "BEST VALUE";
+  background-color: #ffd43b;
+  color: #333;
+  position: absolute;
+  padding: 0.8rem 4.8rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  transform: rotate(45deg);
+  top: 6%;
+  left: 62%;
+  width: 10rem;
+  text-align: center;
+}
+
+.price-start {
+  justify-self: end;
 }
