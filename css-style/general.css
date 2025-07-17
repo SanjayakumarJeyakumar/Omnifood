@@ -134,3 +134,35 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.75px;
 }
+
+strong {
+  font-weight: 500;
+}
+
+.al-cen {
+  text-align: center;
+}
+
+.margin-right-small {
+  margin-right: 1.6rem !important;
+}
+
+.margin-bottom-medium {
+  margin-bottom: 4.8rem !important;
+}
+
+.link:link,
+.link:visited {
+  color: #e67e22;
+  text-decoration: none;
+  display: inline-block;
+  padding-bottom: 2px;
+  border-bottom: 1px solid currentColor;
+  transition: all 0.3s;
+}
+
+.link:hover,
+.link:active {
+  color: #cf711f;
+  border-bottom: 1px solid transparent;
+}
