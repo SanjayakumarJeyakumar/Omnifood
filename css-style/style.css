@@ -427,7 +427,7 @@
   grid-template-columns: 1fr 1fr;
   gap: 9.6rem;
   padding: 0 auto 0 auto;
-  margin-bottom: 9.6rem;
+  margin-bottom: 4.8rem;
 }
 
 .price-box {
@@ -515,4 +515,32 @@
 
 .price-start {
   justify-self: end;
+}
+
+.feature-icon {
+  height: 2.8rem;
+  width: 2.8rem;
+  color: #e67e22;
+  margin-bottom: 3.2rem;
+  background-color: #fdf2e9;
+  padding: 1.2rem;
+  border-radius: 50%;
+}
+
+.feature-title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 1.6rem;
+}
+
+.feature-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
+.price-des {
+  color: #6f6f6f;
+  font-size: 1.6rem;
+  text-align: center;
 }
