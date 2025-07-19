@@ -124,12 +124,14 @@
 
   .btn-mobile-nav {
     display: block;
+    z-index: 10;
   }
 
   .main-nav {
     position: absolute;
     background-color: rgba(255, 255, 255, 0.95);
-    /* filter: blur(100%); */
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
     width: 100%;
     height: 100vh;
     top: 0;
