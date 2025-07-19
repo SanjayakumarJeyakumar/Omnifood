@@ -583,12 +583,13 @@
               meal is on us!
             </p>
 
-            <form class="cta-form" action="#">
+            <form class="cta-form" name="sign-up" netlify>
             <div>
               <label for="cta-name">Full Name</label>
               <input
                 type="text"
                 id="cta-name"
+                name="full-name"
                 required
                 placeholder="Kalai Vani"
               />
@@ -598,6 +599,7 @@
               <input
                 type="email"
                 id="cta-email"
+                name="email"
                 required
                 placeholder="kalaivani@example.com"
               />
@@ -605,7 +607,7 @@
           </div>
           <div>
             <label for="cta-where">Where did you ear us from !</label>
-            <select id="cta-where" required>
+            <select id="cta-where" name="where" required>
               <option value="">Please choose one option</option>
               <option value="friends">Friends and Family</option>
               <option value="youtube">YouTube video</option>
